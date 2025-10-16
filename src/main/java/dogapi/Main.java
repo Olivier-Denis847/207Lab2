@@ -29,7 +29,7 @@ public class Main {
             return results.size();
         }
         catch (BreedFetcher.BreedNotFoundException e) {
-            return -1;
+            return 0;
         }
     }
 }
